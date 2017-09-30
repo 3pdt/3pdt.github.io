@@ -8,5 +8,7 @@ $(function(){
   $('.form-sel').select2({
     minimumResultsForSearch: Infinity
   });
-  new WOW().init();
+  new WOW({
+    mobile: false
+  }).init();
 });
